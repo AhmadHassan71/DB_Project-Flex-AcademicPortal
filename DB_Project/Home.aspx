@@ -21,19 +21,22 @@
 <body>
 	<div class="container">
     <form id="form1" runat="server">
-        <p>
+       
 		<div class="logo">
 			<img src="Flex-Login-3.png" alt="Flex Logo" />
 		</div>
 			<div class="form-group">
-				<label for="username">Username</label>
-				<input type="text" id="username" name="username" placeholder="2XI-XXXX" class="form-control">
+				<label for="username" >Username</label>
+				<input type="text" id="username" name="username" placeholder="2XI-XXXX" class="form-control" required>
 			</div>
 			<div class="form-group">
 				<label for="password">Password</label>
-				<input type="password" id="password" name="password" placeholder="Enter your password" class="form-control">
+				<input type="password" id="password" name="password" placeholder="Enter your password" class="form-control" required>
 			</div>
-			<button type="submit" class="btn-login">Login</button>
+			<div class="signup" >
+				<a href="Student.aspx">Login</a>
+				</div>
+
 		<div class="signup">
 			<p>Don't have an account? Use ARN to <a href="signup.aspx">Sign up</a></div></p>
 		</form>

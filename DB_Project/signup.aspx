@@ -24,7 +24,9 @@
 				<label for="password">Password</label>
 				<input type="password" id="password" name="password" required>
 			</div>
-			<button type="submit" class="btn-login">Sign Up</button>
+			<div class="signup" >
+				<a href="Student.aspx">Signup</a>
+				</div>
 		<div class="signup">
 			<p>Already have an account? <a href="Home.aspx">Login</a></div></p>
 		</form>
