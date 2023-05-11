@@ -17,6 +17,7 @@
 				<div class="headerlogo">
 			<img src="Flex-Login-3.png" alt="Flex logo">
 		</div>
+				<!-- just replace the tables withs excel htmls -->
 				<button class="navbar-toggler"  data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -84,7 +85,7 @@
 									<td>3</td>
 									<td>90.00%</td>
 								</tr>
-															<tr>
+							<tr>
 								<td>Course 3</td>
 								<td>30</td>
 								<td>28</td>

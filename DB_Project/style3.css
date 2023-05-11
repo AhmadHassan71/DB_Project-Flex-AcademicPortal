@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: linear-gradient(to left, white,lightcyan);
+
 }
 .headerlogo {
     color: #063970;
@@ -19,8 +19,10 @@ header {
 nave-item{
     background-color:lightcoral;
 }
+.navbar {
+}
 .navbar-brand {
-    color: #000000;
+    color: lightcyan;
     font-weight: bold;
 }
 
