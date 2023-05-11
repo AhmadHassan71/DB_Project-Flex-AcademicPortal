@@ -17,8 +17,8 @@
 				<input type="text" id="arn-number" name="arn-number" placeholder="XXXXXXX" required>
 			</div>
 			<div class="form-group">
-				<label for="roll-number">Roll Number</label>
-				<input type="text" id="roll-number" name="roll-number" placeholder="2XI-XXXX" required>
+				<label for="roll-number">NU-ID</label>
+				<input type="text" id="roll-number" name="roll-number" placeholder="ABC-XXXX" required>
 			</div>
 			<div class="form-group">
 				<label for="password">Password</label>
@@ -28,7 +28,7 @@
 				<a href="Student.aspx">Signup</a>
 				</div>
 		<div class="signup">
-			<p>Already have an account? <a href="Home.aspx">Login</a></div></p>
+			<p>Already have an account? <a href="Home_S.aspx">Login</a></div></p>
 		</form>
 		
 	</div>

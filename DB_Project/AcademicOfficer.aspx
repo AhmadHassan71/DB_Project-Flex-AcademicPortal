@@ -34,7 +34,7 @@
           <a class="nav-link" href="CourseAllocation.aspx">Course Allocation Report</a>
         </li>
           <li class="nav-item">
-                    <a class="nav-link" href="Home.aspx">LogOut</a>
+                    <a class="nav-link" href="Home_A.aspx">LogOut</a>
           </li>
       </ul>
     </div>

@@ -24,10 +24,7 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="Home.aspx">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="Student.aspx">Profile</a>
+							<a class="nav-link" href="#">Home</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="EvalForm.aspx">Evaluation Form</a>
@@ -36,7 +33,7 @@
 							<a class="nav-link" href="#barchart">Transcript</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="Home.aspx">Logout</a>
+							<a class="nav-link" href="Home_S.aspx">Logout</a>
 						</li>
 					</ul>
 				</div>

@@ -39,7 +39,7 @@
                     <a class="nav-link" href="#">Student Feedback Report</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Home.aspx">LogOut</a>
+                    <a class="nav-link" href="Home_T.aspx">LogOut</a>
                 </li>
             </ul>
         </div>

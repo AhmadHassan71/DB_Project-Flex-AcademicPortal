@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Home_S.aspx.cs" Inherits="_Default" %>
 
 <!DOCTYPE html>
 
@@ -16,7 +16,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+JqnjvayY8qzGxgJQUp8Xa2Ihq27NX"
 		crossorigin="anonymous"></script>
-    
+  
 </head>
 <body>
 	<div class="container">
@@ -25,22 +25,27 @@
 		<div class="logo">
 			<img src="Flex-Login-3.png" alt="Flex Logo" />
 		</div>
+			
+						<h1>Welcome Student!</h1>
+						
 			<div class="form-group">
 				<label for="username" >Username</label>
-				<input type="text" id="username" name="username" placeholder="2XI-XXXX" class="form-control" required>
+				<input type="text" id="username" name="username" placeholder="2XI-XXXX" class="form-control" required/>
 			</div>
 			<div class="form-group">
 				<label for="password">Password</label>
-				<input type="password" id="password" name="password" placeholder="Enter your password" class="form-control" required>
+				<input type="password" id="password" name="password" placeholder="Enter your password" class="form-control" required/>
 			</div>
 			<div class="signup" >
 				<a href="Student.aspx">Login</a>
 				</div>
 
 		<div class="signup">
-			<p>Don't have an account? Use ARN to <a href="signup.aspx">Sign up</a></div></p>
+			<p>Don't have an account? Use ARN to <a href="signup_S.aspx">Sign up</a></p>
+			</div>
+</div>
 		</form>
-	</div>
+	
 	
 </body>
 </html>
