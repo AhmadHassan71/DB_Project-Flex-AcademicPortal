@@ -61,10 +61,6 @@
 				<input type="text" class="form-control" id="name" name="name">
 			</div>
 			<div class="form-group">
-				<label for="date">Date:</label>
-				<input type="date" class="form-control" id="date" name="date">
-			</div>
-			<div class="form-group">
 				<label for="course">Course-Code:</label>
 				<input type="text" class="form-control" id="course" name="course">
 			</div>
