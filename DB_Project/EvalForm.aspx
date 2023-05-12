@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>Teacher Evaluation Form</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Evaluation Portal</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style3.css">
+	<link rel="stylesheet" href="style3.css">
+	
 	<style type="text/css">
 		body {
 			background-color: #f0ffff;
@@ -34,25 +36,40 @@
 			background-color: #00bfff;
 			border-color: #00bfff;
 		}
-		.headerlogo {
-    color: #063970;
-    display: flex;
+	
 
-}
-
-    .headerlogo img {
-        width: 15%;
-        height: 15%;
-        margin-left: 95%;
-    }
 	</style>
 </head>
 <body>
 	<div class="container">
 		<header>
-		<div class="headerlogo">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<div class="headerlogo">
 			<img src="Flex-Login-3.png" alt="Flex logo">
 		</div>
+				<!-- just replace the tables withs excel htmls -->
+				<button class="navbar-toggler"  data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="Student.aspx">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="EvalForm.aspx">Evaluation Form</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#barchart">Transcript</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="Home_S.aspx">Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</header>
 		<h2>Teacher Evaluation Form</h2>
 		<form>
